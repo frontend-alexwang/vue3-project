@@ -1,0 +1,13 @@
+<template>
+  <h1>count:</h1>
+  <button @click="increase">increase</button>
+  <button @click="decrease">decrease</button>
+</template>
+
+<script>
+export default {
+  created() {
+    console.log(this);
+  }
+};
+</script>
